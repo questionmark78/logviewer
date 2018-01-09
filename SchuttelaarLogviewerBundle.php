@@ -1,6 +1,7 @@
 <?php 
 
 namespace Schuttelaar\LogviewerBundle;
+use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 
 class SchuttelaarLogviewerBundle extends \Pimcore\Extension\Bundle\AbstractPimcoreBundle {
 
