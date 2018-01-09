@@ -1,8 +1,16 @@
 {
     "name": "schuttelaar/logviewer",
+    "type": "pimcore-bundle",
     "autoload": {
         "psr-0" : {
             "Schuttelaar\\Logviewer" : "src"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "Schuttelaar\\Logviewer"
+            ]
         }
     }
 }

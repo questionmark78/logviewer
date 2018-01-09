@@ -4,6 +4,12 @@ namespace Schuttelaar\LogviewerBundle;
 
 class SchuttelaarLogviewerBundle extends \Pimcore\Extension\Bundle\AbstractPimcoreBundle {
 
+    use PackageVersionTrait;
+
+    protected function getComposerPackageName(): string {
+        return 'schuttelaar/logviewer';
+    }
+
     public function getJsPaths() {
         return [
             '/bundles/schuttelaarlogviewer/js/plugin.js',
