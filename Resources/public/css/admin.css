@@ -1,0 +1,64 @@
+.logviewer_menu_icon {
+    background-size: 30px 30px !important;
+    background-image: url('../img/logs-white.png') !important;
+    opacity: 0.7;
+}
+.logviewer_menu_icon:hover {
+    background-size: 30px 30px !important;
+    background-image: url('../img/logs-brown.png') !important;
+    opacity: 1;
+}
+
+.logviewer_menu_icon:after {
+    background-color: #f08318 !important;
+}
+
+.pimcore_icon_logviewer {
+    background-size: 20px 20px;
+    background-image: url('../img/logs-brown.png');
+}
+
+.x-tab-active .logviewer_icon_megaphone {
+    background-image: url('../img/logs.png');
+}
+
+.logviewer-linerenderer {
+    font-family: 'Monaco', 'Courier New', 'Courier', monospace; 
+    font-size: 12px;
+}
+
+    .logviewer-linerenderer .line:nth-child(even) {
+        background-color: #f6fbfd;
+    }
+
+    .logviewer-linerenderer .line {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+     .logviewer-linerenderer .line:hover {
+        background-color: #ffefbb;
+     }
+
+        .logviewer-linerenderer .line.endoffile {
+            background-color: #ddddff;
+        }
+
+        .logviewer-linerenderer .line.error {
+            background-color: #ddddff;
+            color: #ee9999;
+        }
+
+.logviewer_icon_refresh {
+    background: url(/pimcore/static6/img/flat-color-icons/synchronize.svg) center center no-repeat !important;
+}
+
+.logviewer_icon_clear {
+    background: url(/pimcore/static6/img/flat-color-icons/reuse.svg) center center no-repeat !important;
+}
+
+.logviewer_icon_download {
+    background: url(/pimcore/static6/img/flat-color-icons/download.svg) center center no-repeat !important;
+}

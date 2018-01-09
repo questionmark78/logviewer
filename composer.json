@@ -1,0 +1,8 @@
+{
+    "name": "schuttelaar/logviewer",
+    "autoload": {
+        "psr-0" : {
+            "Schuttelaar\\Logviewer" : "src"
+        }
+    }
+}

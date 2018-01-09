@@ -1,0 +1,12 @@
+logviewer_admin_tail:
+  path: /admin/logviewer/service/tail
+  defaults: {_controller: \Schuttelaar\LogviewerBundle\Controller\LogviewerController::tailAction, format: json}
+logviewer_admin_filelist:
+  path: /admin/logviewer/service/filelist
+  defaults: {_controller: \Schuttelaar\LogviewerBundle\Controller\LogviewerController::filelistAction, format: json}
+logviewer_admin_download:
+  path: /admin/logviewer/service/download
+  defaults: {_controller: \Schuttelaar\LogviewerBundle\Controller\LogviewerController::downloadAction}
+logviewer_admin_flush:
+  path: /admin/logviewer/service/flush
+  defaults: {_controller: \Schuttelaar\LogviewerBundle\Controller\LogviewerController::flushAction, format: json}
