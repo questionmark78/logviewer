@@ -1,5 +1,6 @@
 {
     "name": "schuttelaar/logviewer",
+    "version": "1.0.0",
     "type": "pimcore-bundle",
     "autoload": {
         "psr-0" : {
