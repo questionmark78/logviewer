@@ -4,7 +4,7 @@
     "type": "pimcore-bundle",
     "autoload": {
         "psr-0" : {
-            "Schuttelaar\\Logviewer" : "src"
+            "Schuttelaar\\Logviewer" : ""
         }
     },
     "extra": {
